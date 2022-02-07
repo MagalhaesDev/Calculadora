@@ -80,17 +80,6 @@ footer > section > h3 {
     cursor: pointer;
     font-size: 30px;
 }
-
-@media (max-width:400px){
-    .calculator{
-        width: 300px;
-    }
-
-    footer > section > h3{
-        font-size: 15px;
-    }
-}
-
 .img-one, .img-two{
     position: absolute;
 }
@@ -121,3 +110,20 @@ footer > section > h3 {
         transform: translateY(0);
     }
 }
+
+@media (max-width:400px){
+    .calculator{
+        width: 300px;
+    }
+
+    footer > section > h3{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1200px){
+    .img-one, .img-two{
+        display: none;
+    }
+}
+
