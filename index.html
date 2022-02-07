@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <section>
+            <h1>Calculadora digital</h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="calculator">
+            <div id="display-calculator">
+                <div id="resultado"></div>
+            </div>
+            <div id="button-calculator">
+                <div class="button" onclick="cleanAll()">AC</div>
+                <div class="button" onclick="cleanOne()">C</div>
+                <div class="button" onclick="calculator('%')">%</div>
+                <div class="button" onclick="calculator('/')">/</div>
+                <div class="button" onclick="calculator('7')">7</div>
+                <div class="button" onclick="calculator('8')">8</div>
+                <div class="button" onclick="calculator('9')">9</div>
+                <div class="button" onclick="calculator('*')">*</div>
+                <div class="button" onclick="calculator('4')">4</div>
+                <div class="button" onclick="calculator('5')">5</div>
+                <div class="button" onclick="calculator('6')">6</div>
+                <div class="button" onclick="calculator('-')">-</div>
+                <div class="button" onclick="calculator('1')">1</div>
+                <div class="button" onclick="calculator('2')">2</div>
+                <div class="button" onclick="calculator('3')">3</div>
+                <div class="button" onclick="calculator('+')">+</div>
+                <div class="button" onclick="calculator('0')">0</div>
+                <div class="button" onclick="calculator('.')">.</div>
+                <div class="button" onclick="calcular()">=</div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h3>Criado com ❤ por <a href="https://github.com/MagalhaesDev">Mateus Magalhaes</a></h3>
+        </section>
+    </footer>
+    <script src="main.js"></script>
+</div>
+    
+</body>
+</html>
