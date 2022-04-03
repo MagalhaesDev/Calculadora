@@ -2,7 +2,7 @@
 ![Logo of the project](https://github.com/MagalhaesDev/Calculator-IMC/blob/main/assets/img/icons8-calculator.svg)
 
 
-## Calculator IMC
+## Calculator 
 I made this calculator, to practice my knowledge in html, js and css. Ultilizando a good clean code, and always aiming to improve the styilization through css.
 
 ## Technology 
