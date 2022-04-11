@@ -47,5 +47,5 @@ The main features of the application are:
 
   * **Mateus Magalhaes**
 
-  Please follow github and join us!
+  Please follow github and join us.
   Thanks to visiting me and good coding!
